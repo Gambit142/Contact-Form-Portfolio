@@ -337,13 +337,14 @@ li {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #07080a;
+  color: #172b4d;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 8rem;
 }
 
 input {
@@ -373,10 +374,15 @@ textarea {
   color: #3c3a39;
   border: none;
   outline: none;
-  margin-left: 0;
-  align-self: baseline;
+  margin-left: -20px;
+  align-self: center;
 }
 
 textarea::placeholder {
   color: #24211f;
+}
+
+.centered-link {
+  align-self: center;
+  border: none;
 }
